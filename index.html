@@ -1,1 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Casa Valentina Moda Infantil</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#fff;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:#fff;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 0;
+}
+
+.logo{
+font-size:30px;
+font-weight:700;
+color:#ff5c8d;
+}
+
+.menu{
+display:flex;
+gap:25px;
+}
+
+.menu a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+.hero{
+background:linear-gradient(135deg,#ffd7e7,#fff);
+padding:90px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:52px;
+color:#222;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+max-width:800px;
+margin:auto;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+background:#ff5c8d;
+color:#fff;
+padding:15px 35px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+}
+
+.services{
+padding:80px 0;
+background:#fafafa;
+}
+
+.section-title{
+text-align:center;
+font-size:38px;
+margin-bottom:50px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.card h3{
+margin-bottom:10px;
+color:#ff5c8d;
+}
+
+.about{
+padding:80px 0;
+}
+
+.about-content{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:20px;
+}
+
+.info{
+background:#fff6fa;
+padding:80px 0;
+}
+
+.info-box{
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+footer{
+background:#222;
+color:white;
+padding:50px 20px;
+text-align:center;
+}
+
+footer p{
+margin:10px 0;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:36px;
+}
+
+.about-content{
+grid-template-columns:1fr;
+}
+
+.menu{
+display:none;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+<div class="container nav">
+
+<div class="logo">
+Casa Valentina
+</div>
+
+<nav class="menu">
+<a href="#inicio">Início</a>
+<a href="#servicos">Serviços</a>
+<a href="#sobre">Sobre</a>
+<a href="#empresa">Empresa</a>
+<a href="#contato">Contato</a>
+</nav>
+
+</div>
+
+</header>
+
+<section class="hero" id="inicio">
+
+<div class="container">
+
+<h1>Moda Infantil com Qualidade, Conforto e Estilo</h1>
+
+<p>
+A Casa Valentina Moda Infantil oferece peças selecionadas para crianças com design moderno,
+confortável e pensado para todas as ocasiões.
+</p>
+
+<a href="#servicos" class="btn">
+Conheça Nossos Serviços
+</a>
+
+</div>
+
+</section>
+
+<section class="services" id="servicos">
+
+<div class="container">
+
+<h2 class="section-title">
+Principais Serviços
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Moda Infantil Feminina</h3>
+<p>Vestidos, conjuntos, blusas e acessórios para diversas ocasiões.</p>
+</div>
+
+<div class="card">
+<h3>Moda Infantil Masculina</h3>
+<p>Peças modernas, confortáveis e resistentes para o dia a dia.</p>
+</div>
+
+<div class="card">
+<h3>Acessórios</h3>
+<p>Complementos infantis para deixar cada look ainda mais especial.</p>
+</div>
+
+<div class="card">
+<h3>Atendimento Especializado</h3>
+<p>Auxílio na escolha das melhores peças para cada necessidade.</p>
+</div>
+
+<div class="card">
+<h3>Vendas no Varejo</h3>
+<p>Comercialização de artigos de vestuário e acessórios infantis.</p>
+</div>
+
+<div class="card">
+<h3>Lançamentos e Novidades</h3>
+<p>Coleções atualizadas seguindo tendências da moda infantil.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="about" id="sobre">
+
+<div class="container">
+
+<div class="about-content">
+
+<div>
+
+<h2 class="section-title">
+Sobre a Casa Valentina
+</h2>
+
+<p>
+A Casa Valentina Moda Infantil LTDA atua no segmento de comércio varejista
+de artigos do vestuário e acessórios, oferecendo produtos de qualidade para
+crianças com foco em conforto, beleza e praticidade.
+</p>
+
+<br>
+
+<p>
+Nossa missão é proporcionar experiências de compra agradáveis e produtos
+que acompanhem os melhores momentos da infância.
+</p>
+
+</div>
+
+<div>
+
+<img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=1200" alt="Moda Infantil">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="info" id="empresa">
+
+<div class="container">
+
+<h2 class="section-title">
+Informações da Empresa
+</h2>
+
+<div class="info-box">
+
+<h3>Dados Empresariais</h3>
+
+<br>
+
+<p>
+<strong>Razão Social:</strong>
+Casa Valentina Moda Infantil LTDA
+</p>
+
+<p>
+<strong>CNPJ:</strong>
+52.369.654/0001-90
+</p>
+
+<p>
+<strong>Data de Fundação:</strong>
+29/09/2023
+</p>
+
+<p>
+<strong>Cidade:</strong>
+São Bernardo do Campo - SP
+</p>
+
+<p>
+<strong>Situação Cadastral:</strong>
+Ativa
+</p>
+
+<p>
+<strong>Atividade Principal:</strong>
+47.81-4-00 - Comércio varejista de artigos do vestuário e acessórios
+</p>
+
+<br>
+
+<h3>Quadro de Sócios e Administradores</h3>
+
+<br>
+
+<p>
+<strong>Marcy Anne Fernandes Ricciardi Milla</strong>
+</p>
+
+<p>
+Sócio-Administrador
+</p>
+
+<p>
+Qualificação do responsável pela empresa:
+Sócio-Administrador
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer id="contato">
+
+<h3>Casa Valentina Moda Infantil</h3>
+
+<p>
+Moda Infantil • Vestuário • Acessórios
+</p>
+
+<p>
+São Bernardo do Campo - SP
+</p>
+
+<p>
+CNPJ: 52.369.654/0001-90
+</p>
+
+<p>
+© 2025 Todos os direitos reservados.
+</p>
+
+</footer>
+
+</body>
+</html>
